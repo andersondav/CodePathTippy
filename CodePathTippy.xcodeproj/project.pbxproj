@@ -13,6 +13,7 @@
 		7184960E23CE5BD900D472DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7184960C23CE5BD900D472DB /* Main.storyboard */; };
 		7184961023CE5BE400D472DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7184960F23CE5BE400D472DB /* Assets.xcassets */; };
 		7184961323CE5BE400D472DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7184961123CE5BE400D472DB /* LaunchScreen.storyboard */; };
+		7184961B23CE6A1900D472DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7184961A23CE6A1900D472DB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7184960F23CE5BE400D472DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7184961223CE5BE400D472DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7184961423CE5BE400D472DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7184961A23CE6A1900D472DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7184960F23CE5BE400D472DB /* Assets.xcassets */,
 				7184961123CE5BE400D472DB /* LaunchScreen.storyboard */,
 				7184961423CE5BE400D472DB /* Info.plist */,
+				7184961A23CE6A1900D472DB /* SettingsViewController.swift */,
 			);
 			path = CodePathTippy;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				7184960B23CE5BD900D472DB /* ViewController.swift in Sources */,
 				7184960723CE5BD900D472DB /* AppDelegate.swift in Sources */,
 				7184960923CE5BD900D472DB /* SceneDelegate.swift in Sources */,
+				7184961B23CE6A1900D472DB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

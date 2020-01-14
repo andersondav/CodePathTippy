@@ -24,6 +24,13 @@ class ViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        setupPercentages()
+        billAmount.text = ""
+        percentChange(self)
+    }
+    
     func setupPercentages() {
         if let percentages = UserDefaults.standard.array(forKey: "percentages") as? [Int] {
             self.percentages = percentages
@@ -59,7 +66,11 @@ class ViewController: UIViewController {
         
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? SettingsViewController {
+            dest.percentages = self.percentages
+        }
+    }
     
     
 }
